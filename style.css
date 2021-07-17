@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Dancing Script', cursive; */
+}
+
+section {
+    margin: 2rem auto !important;
+}
+
+.hero-section {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    background-color: rgba(78, 78, 211, 0.561);
+    color: #fff;
+}
+
+.hero-section h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.hero-section p {
+    font-size: 2rem;
+}
+
+.main-section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    /* min-height: 400px; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.col-70 {
+    width: 69%;
+    box-shadow: 2px 1px 5px 5px rgba(146, 137, 137, 0.109);
+    /* display: inline-block; */
+    padding: 1.2rem;
+}
+
+
+
+.box1 h2 {
+    color: rgb(74, 74, 228);
+}
+
+.box2 {
+    margin-top: 3rem;
+}
+
+.box2 .heading {
+    background-color: rgb(41, 238, 146);
+    padding: 1.5rem .6rem;
+}
+
+.abcd {
+    padding: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.box2-details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box2-details img {
+    width: 30%;
+    padding: 1rem;
+}
+
+.box2-details p {
+    line-height: 3rem;
+    padding-top: 9rem;
+}
+
+
+.col-30 {
+    width: 29%;
+    box-shadow: 2px 1px 5px 5px rgba(146, 137, 137, 0.109);
+    /* display: inline-block; */
+    padding: 2rem;
+}
+ul li{
+    background-color: rgba(0, 0, 0, .1);
+    margin: 1.4rem 0;
+    padding: 0 0 0 1.4rem ;
+    border-left: .5rem solid gray;
+}
+ul li a{
+    display: block;
+    padding: 1.2rem;
+    
+}
+.quick-contact{
+    padding: 2.5rem;
+    border: 1px dotted black;
+    margin: 3rem 0;
+
+}
+
+.quick-contact h2{
+    color: gray;
+    padding-bottom: 1.2rem;
+}
+
+.quick-contact p{
+    
+    padding-bottom: 1.2rem;
+}
